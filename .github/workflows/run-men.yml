@@ -26,7 +26,11 @@ jobs:
         uses: r-lib/actions/setup-r-dependencies@v2
         with:
           extra-packages: |
-            tidyverse
+            dplyr
+            readr
+            purrr
+            tibble
+            tidyr
             httr
             jsonlite
             stringdist

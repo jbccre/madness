@@ -6,14 +6,24 @@
 # requires test_envir to be set to TRUE or FALSE (set to FALSE on previous year data; set to TRUE on current year data)
 # requires qualtrics_simulate to be set to TRUE or FALSE (set to TRUE only to make fake qualtrics data once in testing)
 
-# Remove in prod
 if (men) {setwd("men/")} else {setwd("women/")}
 if (men) {ncaa_url <- "https://ncaa-api.henrygd.me/brackets/basketball-men/d1/2025"} else {ncaa_url <- "https://ncaa-api.henrygd.me/brackets/basketball-women/d1/2025"}
 library(httr)
 library(jsonlite)
-library(tidyverse)
+library(dplyr)
+library(tibble)
+library(tidyr)
+library(purrr)
+library(readr) 
 library(stringdist)
 elo <- read_csv("elo.csv")
+
+################################
+# initialize for first time
+################################
+if (!is.element("games_completed.txt", list.files(), fixed = TRUE)) {
+  writeLines(as.character(0), con = "games_completed.txt")
+}
 
 ################################
 # get the current gamestate
@@ -24,6 +34,13 @@ the_bracket <- the_games$teams
 for (i in 1:length(the_bracket)) {the_bracket[[i]]$contestId <- the_games$contestId[i]}
 for (i in 1:length(the_bracket)) {the_bracket[[i]] <- as.data.frame(the_bracket[[i]])}
 the_bracket <- do.call(rbind,the_bracket)
+
+################################
+# do not update dashboard if no new information
+################################
+games_completed <- readLines("games_completed.txt")
+if (sum(the_bracket$isWinner) == as.numeric(games_completed) & !test_envir) {quit(status=0)}
+
 the_bracket <- 
   left_join(the_games, the_bracket, by = 'contestId') |> 
   select(
@@ -240,3 +257,4 @@ write_csv(the_bracket, file = 'gamestate.csv')
 
 qualtrics$current_points <- NULL
 if (qualtrics_simulate) {write_csv(qualtrics, file = 'submitted_brackets.csv')}
+writeLines(as.character(sum(the_bracket$isWinner)), con = "games_completed.txt")
