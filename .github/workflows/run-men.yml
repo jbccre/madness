@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with: 
+          ref: main
 
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
