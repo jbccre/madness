@@ -40,7 +40,7 @@ jobs:
       
       - name: Run men script
         run: |
-          Rscript main/run_men.R
+          Rscript run_men.R
 
       - name: Commit results
         run: |
