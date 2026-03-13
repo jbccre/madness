@@ -21,7 +21,7 @@ elo <- read_csv("elo.csv")
 ################################
 # initialize for first time
 ################################
-if (!is.element("games_completed.txt", list.files(), fixed = TRUE)) {
+if (!is.element("games_completed.txt", list.files())) {
   writeLines(as.character(0), con = "games_completed.txt")
 }
 
