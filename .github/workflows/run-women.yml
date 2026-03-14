@@ -2,7 +2,7 @@ name: Run Women Script
 
 on:
   schedule:
-    - cron: "59 12 14 3 *"
+    - cron: "25 13 14 3 *"
     - cron: "*/6 23 18-19 3 *"
     - cron: "*/6 0-4 19-20 3 *"
     - cron: "*/6 17-23 20-23 3 *"
@@ -25,7 +25,7 @@ permissions:
   contents: write
 
 jobs:
-  run-men:
+  run-women:
     runs-on: ubuntu-latest
 
     steps:
