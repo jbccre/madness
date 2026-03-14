@@ -17,6 +17,9 @@ on:
     - cron: "*/6 0 6 4 *"
   workflow_dispatch:
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 concurrency:
   group: women-script
   cancel-in-progress: false
