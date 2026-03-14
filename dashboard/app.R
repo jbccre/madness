@@ -86,6 +86,12 @@ server <- function(input, output, session) {
     if (input$tournament == "Women") {updateSelectInput(session, inputId = 'filter_team1', choices = c("\u2800", teams_women))}
     if (input$tournament == "Women") {updateSelectInput(session, inputId = 'filter_team2', choices = c("\u2800", teams_women))}
     if (input$tournament == "Women") {updateSelectInput(session, inputId = 'filter_team3', choices = c("\u2800", teams_women))}
+    updateSelectInput(session, inputId = 'filter_logic1', selected = 'is')
+    updateSelectInput(session, inputId = 'filter_logic2', selected = 'is')
+    updateSelectInput(session, inputId = 'filter_logic3', selected = 'is')
+    updateSelectInput(session, inputId = 'filter_outcome1', selected = '')
+    updateSelectInput(session, inputId = 'filter_outcome2', selected = '')
+    updateSelectInput(session, inputId = 'filter_outcome3', selected = '')
   })
 
   observeEvent(input$reset, {
