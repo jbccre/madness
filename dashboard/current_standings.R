@@ -4,7 +4,7 @@ current_standings <- function(input, output, session, current_standings_men, cur
 
   output$current_standings_out <- renderDT(server = FALSE, {my_table |>
     select(!timestamp) |>
-    arrange(desc(first)) |>
+    arrange(desc(first), desc(market_value)) |>
     select(Player = name, `Probability, First Place` = first, `Probability, Second Place` = second,
            `Probability, Third Place` = third, Points = current_points, `Market Value` = market_value) |>
     datatable(extensions = 'Buttons', rownames = FALSE, 
