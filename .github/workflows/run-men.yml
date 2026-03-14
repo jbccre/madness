@@ -11,6 +11,9 @@ on:
     - cron: "*/15 21-23 7 4 *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   run-men:
     runs-on: ubuntu-latest
