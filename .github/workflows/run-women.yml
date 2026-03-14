@@ -1,0 +1,57 @@
+name: Run Women Script
+
+on:
+  schedule:
+    - cron: "*/6 18-23 18-19 3 *"
+    - cron: "*/6 12-23 20-23 3 *"
+    - cron: "*/6 14-23 27-28 3 *"
+    - cron: "*/6 13-20 29-30 3 *"
+    - cron: "*/6 18-23 3 4 *"
+    - cron: "*/6 16-19 5 4 *"
+  workflow_dispatch:
+
+concurrency:
+  group: women-script
+  cancel-in-progress: false
+  
+permissions:
+  contents: write
+
+jobs:
+  run-men:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with: 
+          ref: main
+
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+
+      - name: Install system dependencies
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          cache-version: 2
+          extra-packages: |
+            dplyr
+            readr
+            purrr
+            tibble
+            tidyr
+            httr
+            jsonlite
+            stringdist
+      
+      - name: Run women script
+        run: |
+          Rscript run_women.R
+
+      - name: Commit results
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git commit -m "Women script update $(date)" || echo "No changes"
+          git push
