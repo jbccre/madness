@@ -19,7 +19,6 @@ madness_over_time <- function(input, output, session) {
   ticks$timestamp <- as.POSIXct(ticks$timestamp, tz = "America/Chicago")
   ticks$t <- all_standings$t[match(ticks$timestamp, all_standings$timestamp)]
 
-  if (input$timestamp_x) {all_standings$x <- all_standings$timestamp} else {all_standings$x <- all_standings$t}
   yvar <- c("first","second","third","market_value","points")[match(
     input$outcome_overtime,
     c("Probability, First Place", "Probability, Second Place", "Probability, Third Place", "Market Value", "Points")
@@ -31,11 +30,11 @@ madness_over_time <- function(input, output, session) {
 
   output$plotly_out <- renderPlotly({
        {all_standings |>
-        select(Player=player,x,madness,timestamp,Madness=pretty_madness) |>
-        ggplot(aes(x = x, y = madness, group = Player, color = Player, customdata = Madness)) +
+        select(Player=player,madness,t,Madness=pretty_madness) |>
+        ggplot(aes(x = t, y = madness, group = Player, color = Player, customdata = Madness)) +
         geom_line() +
         labs(x = '', y = '') +
-        theme(legend.position = 'none') +
+        scale_x_continuous(breaks = ticks$t, labels = ticks$time_label) +
         (if (grepl("Probability", input$outcome_overtime)) {
           scale_y_continuous(labels=scales::percent)} else 
           {NULL}) +
@@ -44,14 +43,9 @@ madness_over_time <- function(input, output, session) {
           {NULL}) +
          (if (grepl("Points", input$outcome_overtime)) {
           scale_y_continuous(labels=scales::comma)} else 
-          {NULL}) +
-        (if (input$timestamp_x) {
-          scale_x_continuous(breaks = ticks$timestamp, labels = ticks$time_label)
-        } else 
-          {scale_x_continuous(breaks = ticks$t, labels = ticks$time_label)}) 
-       } |>
+          {NULL}) } |>
         ggplotly(tooltip = c("customdata", "colour")) 
-      })
+       })
   
   tagList(
     h3(input$outcome_overtime),

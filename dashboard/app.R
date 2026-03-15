@@ -12,6 +12,7 @@ ui <- fluidPage(
   titlePanel("MARCH MADNESS!!!!!"),
   sidebarLayout(
     sidebarPanel(
+      width=3,
       radioGroupButtons(inputId = 'tournament', label = 'Tournament:', choices = c("Men", "Women"), selected = "Men"),
       radioGroupButtons(inputId = 'mode', label = 'Explore the Madness:', direction = 'vertical',
          choices = c("Current Standings", "Madness Over Time", "Current Bracket", "Explore Submitted Brackets", "Simulate Scenario"), 
@@ -23,8 +24,8 @@ ui <- fluidPage(
                     "Probability, Second Place",
                     "Probability, Third Place",
                     "Market Value",
-                     "Points")),
-        materialSwitch(inputId = 'timestamp_x', label = "Use timestamp for x axis:", value = FALSE, status = 'primary')),
+                     "Points"))
+        ),
       conditionalPanel(
         condition = "input.mode == 'Explore Submitted Brackets'",
         selectInput(inputId = 'player', label = "View Bracket Submitted By:", choices = "", selected = ""),
@@ -61,6 +62,7 @@ ui <- fluidPage(
        tags$a(href = "https://www.github.com/jbccre/madness", target = "_blank","Click here"), " for code and data.")
     ),
     mainPanel(
+      width = 9,
       uiOutput("content")
     ),
   )
@@ -96,6 +98,8 @@ server <- function(input, output, session) {
     updateSelectInput(session, inputId = 'filter_outcome1', selected = '')
     updateSelectInput(session, inputId = 'filter_outcome2', selected = '')
     updateSelectInput(session, inputId = 'filter_outcome3', selected = '')
+    if (input$tournament == "Men") {updateSelectInput(session, inputId = 'player', choices = players_men)}
+    if (input$tournament == "Women") {updateSelectInput(session, inputId = 'player', choices = players_women)}
   })
 
   observeEvent(input$reset, {
@@ -115,7 +119,7 @@ server <- function(input, output, session) {
     mode <- input$mode
     if (mode == "Madness Over Time") {madness_over_time(input, output, session)} else {
       if (mode == "Current Bracket") {current_bracket(input, output, session)} else {
-        if (mode == "Explore Submitted Brackets") {explore_submitted_brackets(input, output, session)} else {
+        if (mode == "Explore Submitted Brackets") {explore_submitted_brackets(input, output, session, gamestate_men, gamestate_women)} else {
           if (mode == "Simulate Scenario") {simulate_scenario(input, output, session, teams_men, teams_women, players_men, players_women)} else {
             current_standings(input, output, session, current_standings_men, current_standings_women)
    }}}}})
