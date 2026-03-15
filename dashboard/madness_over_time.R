@@ -9,7 +9,8 @@ madness_over_time <- function(input, output, session) {
   
   ticks <- read_csv("http://raw.githubusercontent.com/jbccre/madness/refs/heads/main/dashboard_ticks.csv")
   ticks |>
-    mutate(time = as.POSIXct(time))
+    mutate(time = as.POSIXct(time)) |>
+    filter(time < )
 
 
   if (input$timestamp_x) {all_standings$x <- all_standings$timestamp} else {all_standings$x <- all_standings$t}
