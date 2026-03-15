@@ -1,5 +1,9 @@
 tournament,time,time_label
+<<<<<<< HEAD
 men,2026-03-17 19:00:00 CDT,First Four Begins
+=======
+men,2026-03-14 18:01:00 CDT,First Four Begins
+>>>>>>> 176ad086f3f603eeebaa2a25567d282c5b7f3e87
 men,2026-03-19 03:00:00 CDT,1st Round Begins
 men,2026-03-20 03:00:00 CDT,"1st Round, Day 2"
 men,2026-03-21 03:00:00 CDT,2nd Round Begins

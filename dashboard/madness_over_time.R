@@ -10,7 +10,7 @@ madness_over_time <- function(input, output, session) {
   ticks <- read_csv("http://raw.githubusercontent.com/jbccre/madness/refs/heads/main/dashboard_ticks.csv") |>
     mutate(time = as.POSIXct(time)) |>
     filter(time<Sys.time()) |>
-    mutate(timestamp = NA)
+    mutate(timestamp = NA) |>
     filter(tournament == tolower(input$tournament))
 
   for (i in 1:nrow(ticks)) {
@@ -34,6 +34,7 @@ madness_over_time <- function(input, output, session) {
         select(Player=player,x,madness,timestamp,Madness=pretty_madness) |>
         ggplot(aes(x = x, y = madness, group = Player, color = Player, customdata = Madness)) +
         geom_line() +
+        labs(x = '', y = '') +
         theme(legend.position = 'none') +
         (if (grepl("Probability", input$outcome_overtime)) {
           scale_y_continuous(labels=scales::percent)} else 
@@ -44,11 +45,10 @@ madness_over_time <- function(input, output, session) {
          (if (grepl("Points", input$outcome_overtime)) {
           scale_y_continuous(labels=scales::comma)} else 
           {NULL}) +
-        (if (!input$timestamp_x) {
-          theme(axis.text.x = element_blank(), axis.ticks.x = element_blank())
+        (if (input$timestamp_x) {
+          scale_x_continuous(breaks = ticks$timestamp, labels = ticks$time_label)
         } else 
-          {NULL})         
-         
+          {scale_x_continuous(breaks = ticks$t, labels = ticks$time_label)}) 
        } |>
         ggplotly(tooltip = c("customdata", "colour")) 
       })
