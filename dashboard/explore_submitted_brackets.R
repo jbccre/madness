@@ -122,7 +122,7 @@ explore_submitted_brackets <- function(input, output, session, gamestate_men, ga
     paste0(input$player, "_bracket.png")
   },
   content = function(file) {
-    png(file, width=750,height=750, res=100)
+    png(file, width=1500,height=2000, res=150)
     print(drawn_bracket)
     dev.off()
   }

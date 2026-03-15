@@ -119,12 +119,12 @@ server <- function(input, output, session) {
   output$content <- renderUI({
     mode <- input$mode
     if (mode == "Madness Over Time") {madness_over_time(input, output, session)} else {
-      if (mode == "Current Bracket") {current_bracket(input, output, session)} else {
+      if (mode == "Current Bracket") {current_bracket(input, output, session, gamestate_men, gamestate_women)} else {
         if (mode == "Explore Submitted Brackets") {explore_submitted_brackets(input, output, session, gamestate_men, gamestate_women, current_standings_men, current_standings_women)} else {
           if (mode == "Simulate Scenario") {simulate_scenario(input, output, session, teams_men, teams_women, players_men, players_women)} else {
             current_standings(input, output, session, current_standings_men, current_standings_women)
    }}}}})
-  
+   
 }
 
 shinyApp(ui, server)
