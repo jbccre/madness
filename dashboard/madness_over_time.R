@@ -8,6 +8,9 @@ madness_over_time <- function(input, output, session) {
   all_standings$t <- match(all_standings$timestamp, sort(unique(all_standings$timestamp)))
   
   ticks <- read_csv("http://raw.githubusercontent.com/jbccre/madness/refs/heads/main/dashboard_ticks.csv")
+  ticks |>
+    mutate(time = as.POSIXct(time))
+
 
   if (input$timestamp_x) {all_standings$x <- all_standings$timestamp} else {all_standings$x <- all_standings$t}
   yvar <- c("first","second","third","market_value","points")[match(
