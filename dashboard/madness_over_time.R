@@ -7,7 +7,7 @@ madness_over_time <- function(input, output, session) {
   all_standings$timestamp <- with_tz(all_standings$timestamp, "America/Chicago")
   all_standings$t <- match(all_standings$timestamp, sort(unique(all_standings$timestamp)))
   
-  ticks <- read_csv("http://raw.githubusercontent.com/jbccre/madness/refs/heads/main/dashboard/dashboard_ticks.csv") |>
+  ticks <- read_csv("http://raw.githubusercontent.com/jbccre/madness/refs/heads/main/dashboard_ticks.csv") |>
     mutate(time = as.POSIXct(time)) |>
     filter(time<Sys.time()) |>
     mutate(timestamp = NA) |>
