@@ -7,7 +7,7 @@
 # requires qualtrics_simulate to be set to TRUE or FALSE (set to TRUE only to make fake qualtrics data once in testing)
 
 if (men) {setwd("men/")} else {setwd("women/")}
-if (men) {ncaa_url <- "https://ncaa-api.henrygd.me/brackets/basketball-men/d1/2025"} else {ncaa_url <- "https://ncaa-api.henrygd.me/brackets/basketball-women/d1/2025"}
+if (men) {ncaa_url <- "https://ncaa-api.henrygd.me/brackets/basketball-men/d1/2026"} else {ncaa_url <- "https://ncaa-api.henrygd.me/brackets/basketball-women/d1/2026"}
 library(httr)
 library(jsonlite)
 library(dplyr)
@@ -31,7 +31,7 @@ if (!is.element("games_completed.txt", list.files())) {
 the_data <- fromJSON(content(GET(ncaa_url), "text", encoding = "UTF-8"))
 the_games <- the_data$championships$games[[1]]
 the_bracket <- the_games$teams
-for (i in 1:length(the_bracket)) {the_bracket[[i]]$contestId <- the_games$contestId[i]}
+for (i in 1:length(the_bracket)) {try(the_bracket[[i]]$contestId <- the_games$contestId[i])}
 for (i in 1:length(the_bracket)) {the_bracket[[i]] <- as.data.frame(the_bracket[[i]])}
 the_bracket <- do.call(rbind,the_bracket)
 
@@ -64,9 +64,14 @@ the_bracket <-
 the_bracket$elo_name <- 
   elo$Team[sapply(
     the_bracket$nameShort, 
-    function(z){which.min(stringdist(z, elo$Team, method='jw'))})]
+    function(z){
+      out <- which.min(stringdist(z, elo$Team, method='jw'))
+      if (length(out)==0) {NA} else {out}
+    })]
 
-if (men) {the_bracket$elo_name[the_bracket$nameShort=="SIU Edwardsville"] <- "SIUE"} # manual fix - update each year
+if (men) {the_bracket$elo_name[the_bracket$nameShort=="NC State"] <- "North Carolina State"} # manual fix - update each year
+
+# to be done on womens bracket reveal
 if (!men) {the_bracket$elo_name[the_bracket$nameShort=="NC State"] <- "North Carolina State"} # manual fix - update each year
 if (!men) {the_bracket$elo_name[the_bracket$nameShort=="Fla. Gulf Coast"] <- "FGCU"} # manual fix - update each year
 if (!men) {the_bracket$elo_name[the_bracket$nameShort=="FDU"] <- "Fairleigh Dickinson"} # manual fix - update each year
@@ -139,7 +144,7 @@ mapping <- the_bracket |>
 
 for (i in seq(1,nrow(mapping),by=2)) { 
   id <- mapping$victorBracketPositionId[i]
-  winner <- the_bracket$elo_name[the_bracket$bracketPositionId == id & the_bracket$isWinner] 
+  winner <- setdiff(the_bracket$elo_name[the_bracket$bracketPositionId == id & the_bracket$isWinner],NA)
   if (length(winner)>0 & !test_envir) {out <- rep(winner, times = 10000)} else {out <- {
     team1 <- unlist(sim[,as.character(mapping$bracketPositionId[i])])
     team2 <- unlist(sim[,as.character(mapping$bracketPositionId[i+1])])
@@ -220,10 +225,16 @@ standings <- sim |>
 qualtrics$current_points <- NA
 
 winners <- the_bracket |>
-  filter(isWinner) |>
-  select(bracketPositionId, elo_name)
+  select(bracketPositionId) |>
+  distinct() |>
+  arrange(bracketPositionId) |>
+  left_join({
+    the_bracket |> filter(isWinner) |> select(bracketPositionId, elo_name)
+  })
+
 winners_vec <- t(matrix(unlist(winners$elo_name)))
 colnames(winners_vec) <- unlist(winners$bracketPositionId)
+winners_vec[is.na(winners_vec)] <- 'zzzzz'
 rm(winners)
 
 for (i in 1:nrow(qualtrics)) {
