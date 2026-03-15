@@ -1,29 +1,25 @@
 tournament,time,time_label
-<<<<<<< HEAD
-men,2026-03-17 19:00:00 CDT,First Four Begins
-=======
-men,2026-03-14 18:01:00 CDT,First Four Begins
->>>>>>> 176ad086f3f603eeebaa2a25567d282c5b7f3e87
-men,2026-03-19 03:00:00 CDT,1st Round Begins
-men,2026-03-20 03:00:00 CDT,"1st Round, Day 2"
-men,2026-03-21 03:00:00 CDT,2nd Round Begins
-men,2026-03-22 03:00:00 CDT,"2nd Round, Day 2"
-men,2026-03-23 03:00:00 CDT,Sweet 16 Begins
-men,2026-03-27 03:00:00 CDT,"Sweet 16, Day 2"
-men,2026-03-28 03:00:00 CDT,Elite 8 Begins
-men,2026-03-29 03:00:00 CDT,"Elite 8, Day 2"
-men,2026-03-30 03:00:00 CDT,Final 4
-men,2026-04-05 03:00:00 CDT,Championship Game
+men,2026-03-14 06:51:00 CDT,First\nFour\nBegins
+men,2026-03-19 03:00:00 CDT,1st\nRound\nBegins
+men,2026-03-20 03:00:00 CDT,"1st\nRound,\nDay\n2"
+men,2026-03-21 03:00:00 CDT,2nd\nRound\nBegins
+men,2026-03-22 03:00:00 CDT,"2nd\nRound,\nDay\n2"
+men,2026-03-23 03:00:00 CDT,Sweet\n16\nBegins
+men,2026-03-27 03:00:00 CDT,"Sweet\n16,\nDay\n2"
+men,2026-03-28 03:00:00 CDT,Elite\n8\nBegins
+men,2026-03-29 03:00:00 CDT,"Elite\n8,\nDay\n2"
+men,2026-03-30 03:00:00 CDT,Final\n4
+men,2026-04-05 03:00:00 CDT,Championship\nGame
 men,2026-04-07 03:00:00 CDT,Champion!
-women,2026-03-18 18:00:00 CDT,First Four Begins
-women,2026-03-20 03:00:00 CDT,1st Round Begins
-women,2026-03-21 03:00:00 CDT,"1st Round, Day 2"
-women,2026-03-22 03:00:00 CDT,2nd Round Begins
-women,2026-03-23 03:00:00 CDT,"2nd Round, Day 2"
-women,2026-03-24 03:00:00 CDT,Sweet 16 Begins
-women,2026-03-28 03:00:00 CDT,"Sweet 16, Day 2"
-women,2026-03-29 03:00:00 CDT,Elite 8 Begins
-women,2026-03-30 03:00:00 CDT,"Elite 8, Day 2"
-women,2026-03-31 03:00:00 CDT,Final 4
-women,2026-04-04 03:00:00 CDT,Championship Game
+women,2026-03-18 18:00:00 CDT,First\nFour\nBegins
+women,2026-03-20 03:00:00 CDT,1st\nRound\nBegins
+women,2026-03-21 03:00:00 CDT,"1st\nRound,\nDay\n2"
+women,2026-03-22 03:00:00 CDT,2nd\nRound\nBegins
+women,2026-03-23 03:00:00 CDT,"2nd\nRound,\nDay\n2"
+women,2026-03-24 03:00:00 CDT,Sweet\n16\nBegins
+women,2026-03-28 03:00:00 CDT,"Sweet\n16,\nDay\n2"
+women,2026-03-29 03:00:00 CDT,Elite\n8\nBegins
+women,2026-03-30 03:00:00 CDT,"Elite\n8,\nDay\n2"
+women,2026-03-31 03:00:00 CDT,Final\n4
+women,2026-04-04 03:00:00 CDT,Championship\nGame
 women,2026-04-06 03:00:00 CDT,Champion!
