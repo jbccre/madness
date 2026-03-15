@@ -4,6 +4,9 @@ library(readr)
 library(dplyr)
 library(tidyr)
 library(DT)
+library(ggplot2)
+library(plotly)
+library(lubridate)
 
 ui <- fluidPage(
   titlePanel("MARCH MADNESS!!!!!"),
@@ -15,12 +18,13 @@ ui <- fluidPage(
          selected = "Current Standings"),
       conditionalPanel(
         condition = "input.mode == 'Madness Over Time'",
-        radioGroupButtons(inputId = 'outcome', direction = 'vertical', label = "View Outcome Over Time:", selected = "Probability, First Place",
+        radioGroupButtons(inputId = 'outcome_overtime', direction = 'vertical', label = "View Outcome Over Time:", selected = "Probability, First Place",
         choices = c("Probability, First Place",
                     "Probability, Second Place",
                     "Probability, Third Place",
                     "Market Value",
-                     "Points"))),
+                     "Points")),
+        materialSwitch(inputId = 'timestamp_x', label = "Use timestamp for x axis:", value = FALSE, status = 'primary')),
       conditionalPanel(
         condition = "input.mode == 'Explore Submitted Brackets'",
         selectInput(inputId = 'player', label = "View Bracket Submitted By:", choices = "", selected = ""),
