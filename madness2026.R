@@ -70,12 +70,8 @@ the_bracket$elo_name <-
     })]
 
 if (men) {the_bracket$elo_name[the_bracket$nameShort=="NC State"] <- "North Carolina State"} # manual fix - update each year
-
-# to be done on womens bracket reveal
-if (!men) {the_bracket$elo_name[the_bracket$nameShort=="NC State"] <- "North Carolina State"} # manual fix - update each year
-if (!men) {the_bracket$elo_name[the_bracket$nameShort=="Fla. Gulf Coast"] <- "FGCU"} # manual fix - update each year
 if (!men) {the_bracket$elo_name[the_bracket$nameShort=="FDU"] <- "Fairleigh Dickinson"} # manual fix - update each year
-
+if (!men) {the_bracket$elo_name[the_bracket$nameShort=="NC State"] <- "North Carolina State"} # manual fix - update each year
 the_bracket <- the_bracket |> left_join({elo |> select(elo_name = Team)}) |> as_tibble()
 rm(list = setdiff(ls(), c("the_bracket", "elo", "test_envir", "men", "qualtrics_simulate")))
 
