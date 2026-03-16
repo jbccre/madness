@@ -53,7 +53,8 @@ explore_submitted_brackets <- function(input, output, session, gamestate_men, ga
         mutate(precedingBracketId = as.integer(precedingBracketId))
     }) |>
     mutate(display_name = case_when(play_in ~ selectedPreviousBracket, .default = elo_name)) |>
-    mutate(x = 1, y = (1:64)-.5, color = case_when(
+    mutate(y = as.integer(substr(bracketPositionId,2,3))*2 - isTop - .5) |>
+    mutate(x = 1, y = y, color = case_when(
        !play_in ~ gray(.4),
        is.na(elo_name) ~ "blue",
        elo_name == selectedPreviousBracket ~ "green",
