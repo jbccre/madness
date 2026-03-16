@@ -67,7 +67,22 @@ explore_submitted_brackets <- function(input, output, session, gamestate_men, ga
     mutate(display_name = ifelse(
       fontface == 'bold', paste0("**",display_name,"**"),
       display_name
-    ))
+    )) |>
+    select(x_strike1, x_strike2, y, x, display_name, color, bracketPositionId)
+
+  bracket_to_draw3 <- bracket_to_draw1 |>
+    group_by(bracketPositionId) |>
+    filter(n()==1) |>
+    mutate(y = y+1, color = 'blue') |>
+    left_join({gamestate |> select(bracketPositionId, victorBracketPositionId)}, by = join_by(bracketPositionId==victorBracketPositionId)) |>
+    distinct() |>
+    left_join({bracket_to_draw |> 
+      select(1:4) |> 
+      rename(`101`=X1,`102`=X2,`103`=X3,`104`=X4) |> 
+      pivot_longer(cols = 1:4) |> 
+      mutate(name = as.integer(name)) |>
+      rename(bracketPositionId.y=name)}) |>
+    select(x_strike1, x_strike2, y, x, display_name = value, color, bracketPositionId)
 
   line_segments <- rbind(
     data.frame(x=2.35,xend=2.5,y=seq(1,63,2),yend=seq(1,63,2)),
@@ -103,6 +118,7 @@ explore_submitted_brackets <- function(input, output, session, gamestate_men, ga
     scale_x_continuous(limits = c(0.8,7.2)) +
     geom_richtext(data = bracket_to_draw1, aes(x = x, y = y, label = display_name, color = color), fill = NA, label.color = NA) +
     geom_richtext(data = bracket_to_draw2, aes(x = x, y = y, label = value, color = color), fill = NA, label.color = NA) +
+    geom_richtext(data = bracket_to_draw3, aes(x = x, y = y, label = display_name, color = color), fill = NA, label.color = NA) +
     scale_color_manual(values = c("red"="red","black"="black","green"="darkgreen",'blue'='blue')) +
     geom_segment(data = line_segments, aes(x=x,xend=xend,y=y,yend=yend,color=color)) + 
     labs(title = bracket_to_draw$X68[1],
