@@ -265,6 +265,6 @@ write_csv(the_bracket, file = 'gamestate.csv')
 qualtrics$current_points <- NULL
 if (qualtrics_simulate) {write_csv(qualtrics, file = 'submitted_brackets.csv')}
 
-if (!is.na(as.character(sum(the_brackets$isWinner)))) {
+if (!is.na(as.character(sum(the_bracket$isWinner)))) {
    writeLines(as.character(sum(the_bracket$isWinner)), con = "games_completed.txt")
   }
