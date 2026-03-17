@@ -14,7 +14,7 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       width=3,
-      radioGroupButtons(inputId = 'tournament', label = 'Tournament:', choices = c("Men", "Women"), selected = "Men", disabled = 'Women'),
+      radioGroupButtons(inputId = 'tournament', label = 'Tournament:', choices = c("Men"), selected = "Men"),
       radioGroupButtons(inputId = 'mode', label = 'Explore the Madness:', direction = 'vertical',
          choices = c("Current Standings", "Madness Over Time", "Current Bracket", "Explore Submitted Brackets", "Simulate Scenario"), 
          selected = "Current Standings"),
