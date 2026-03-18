@@ -1,7 +1,7 @@
 contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate,isWinner,isTop,seed,nameShort,elo_name
 6534592,101,225,Bottom,2026-03-17,FALSE,TRUE,16,UMBC,UMBC
 6534592,101,225,Bottom,2026-03-17,TRUE,FALSE,16,Howard,Howard
-6534593,102,221,Bottom,2026-03-17,FALSE,TRUE,11,Texas,Texas
+6534593,102,221,Bottom,2026-03-17,TRUE,TRUE,11,Texas,Texas
 6534593,102,221,Bottom,2026-03-17,FALSE,FALSE,11,NC State,North Carolina State
 6534594,103,209,Bottom,2026-03-18,FALSE,TRUE,16,Prairie View A&M,Prairie View A&M
 6534594,103,209,Bottom,2026-03-18,FALSE,FALSE,16,Lehigh,Lehigh
@@ -47,6 +47,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534615,220,310,Bottom,2026-03-19,FALSE,TRUE,4,Arkansas,Arkansas
 6534615,220,310,Bottom,2026-03-19,FALSE,FALSE,13,Hawaii,Hawaii
 6534616,221,311,Top,2026-03-19,FALSE,TRUE,6,BYU,BYU
+6534616,221,311,Top,2026-03-19,FALSE,FALSE,11,Texas,Texas
 6534617,222,311,Bottom,2026-03-19,FALSE,TRUE,3,Gonzaga,Gonzaga
 6534617,222,311,Bottom,2026-03-19,FALSE,FALSE,14,Kennesaw St.,Kennesaw State
 6534618,223,312,Top,2026-03-20,FALSE,TRUE,7,Miami (FL),Miami (FL)
