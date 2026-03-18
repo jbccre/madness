@@ -4,7 +4,7 @@ madness_over_time <- function(input, output, session) {
   if (input$tournament == 'Women' & !exists("all_standings_women")) {all_standings_women <<- read_csv("http://raw.githubusercontent.com/jbccre/madness/refs/heads/main/women/all_standings.csv", col_names = FALSE)}
   if (input$tournament == "Men") {all_standings <- all_standings_men} else {all_standings <- all_standings_women}
   colnames(all_standings) <- c("player", "points", "first", "second", "third", "market_value", "timestamp")
-  all_standings$timestamp <- with_tz(all_standings$timestamp, "America/Chicago")
+  all_standings$timestamp <- with_tz(all_standings$timestamp, "UTC")
   all_standings$t <- match(all_standings$timestamp, sort(unique(all_standings$timestamp)))
   
   ticks <- read_csv("http://raw.githubusercontent.com/jbccre/madness/refs/heads/main/dashboard_ticks.csv") |>
