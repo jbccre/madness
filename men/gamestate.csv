@@ -1,6 +1,6 @@
 contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate,isWinner,isTop,seed,nameShort,elo_name
 6534592,101,225,Bottom,2026-03-17,FALSE,TRUE,16,UMBC,UMBC
-6534592,101,225,Bottom,2026-03-17,FALSE,FALSE,16,Howard,Howard
+6534592,101,225,Bottom,2026-03-17,TRUE,FALSE,16,Howard,Howard
 6534593,102,221,Bottom,2026-03-17,FALSE,TRUE,11,Texas,Texas
 6534593,102,221,Bottom,2026-03-17,FALSE,FALSE,11,NC State,North Carolina State
 6534594,103,209,Bottom,2026-03-18,FALSE,TRUE,16,Prairie View A&M,Prairie View A&M
@@ -54,6 +54,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534619,224,312,Bottom,2026-03-20,FALSE,TRUE,2,Purdue,Purdue
 6534619,224,312,Bottom,2026-03-20,FALSE,FALSE,15,Queens (N.C.),Queens
 6534620,225,313,Top,2026-03-19,FALSE,TRUE,1,Michigan,Michigan
+6534620,225,313,Top,2026-03-19,FALSE,FALSE,16,Howard,Howard
 6534621,226,313,Bottom,2026-03-19,FALSE,TRUE,8,Georgia,Georgia
 6534621,226,313,Bottom,2026-03-19,FALSE,FALSE,9,Saint Louis,Saint Louis
 6534622,227,314,Top,2026-03-20,FALSE,TRUE,5,Texas Tech,Texas Tech
