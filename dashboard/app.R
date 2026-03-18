@@ -99,8 +99,8 @@ server <- function(input, output, session) {
     updateSelectInput(session, inputId = 'filter_outcome1', selected = '')
     updateSelectInput(session, inputId = 'filter_outcome2', selected = '')
     updateSelectInput(session, inputId = 'filter_outcome3', selected = '')
-    if (input$tournament == "Men") {updateSelectInput(session, inputId = 'player', choices = sort(players_men)}
-    if (input$tournament == "Women") {updateSelectInput(session, inputId = 'player', choices = sort(players_women)}
+    if (input$tournament == "Men") {updateSelectInput(session, inputId = 'player', choices = sort(players_men))}
+    if (input$tournament == "Women") {updateSelectInput(session, inputId = 'player', choices = sort(players_women))}
   })
 
   observeEvent(input$reset, {
