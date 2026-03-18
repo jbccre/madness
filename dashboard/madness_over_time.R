@@ -16,7 +16,7 @@ madness_over_time <- function(input, output, session) {
   for (i in 1:nrow(ticks)) {
      ticks$timestamp[i] <- as.character(sort(unique(all_standings$timestamp[all_standings$timestamp < ticks$time[i]]),decreasing=T)[1])
   } 
-  ticks$timestamp <- as.POSIXct(ticks$timestamp, tz = "America/Chicago")
+  ticks$timestamp <- as.POSIXct(ticks$timestamp, tz = "UTC")
   ticks$t <- all_standings$t[match(ticks$timestamp, all_standings$timestamp)]
 
   yvar <- c("first","second","third","market_value","points")[match(
