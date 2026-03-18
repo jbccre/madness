@@ -10,7 +10,7 @@ How it works:
 
 - CCRE scoring system: We use a point system that rewards wins -- especially upsets. You get points for each win, with games in later rounds getting more points than games in earlier rounds. You also get points based on the "seed" (1-16) of the team you correctly select to win. So, you will get more points if you correctly call an "upset" win. Points are as follows.
 
-    Example: You correctly pick a 10-seed team to win a Final Four game. You will get 210 points for that game (140 + 7*10)
+Example: You correctly pick a 10-seed team to win a Final Four game. You will get 210 points for that game (140 + 7*10)
 
       - First Four:	20
       - First Round: 20 + seed
@@ -23,13 +23,13 @@ How it works:
     Bracket with the most points wins 70% of the pot. Second place gets 20%. Third place gets 10%.
 
  - Source data (in the men/ and women/ folders)
-      all_standings.csv: All historical standings (used for "madness over time")
-      current_standings.csv: Current standings
-      elo.csv: ELO scores (team strength) for tournament.
-      games_completed.txt: Number of games completed (used to ensure data added only after new matches are completed)
-      gamestate.csv: Current state of the world (bracket structure and which teams won)
-      simulation.csv: 10,000 iterations of March Madness (used for simulating scenarios)
-      submitted_brackets.csv: Submitted brackets, transformed at start of tournament.
+      - all_standings.csv: All historical standings (used for "madness over time")
+      - current_standings.csv: Current standings
+      - elo.csv: ELO scores (team strength) for tournament.
+      - games_completed.txt: Number of games completed (used to ensure data added only after new matches are completed)
+      - gamestate.csv: Current state of the world (bracket structure and which teams won)
+      - simulation.csv: 10,000 iterations of March Madness (used for simulating scenarios)
+      - submitted_brackets.csv: Submitted brackets, transformed at start of tournament.
 
 - Code for the dashboard itself is in the dashboard/ folder. The dashboard is built in Shiny using R. It contains the main code (app.R) and five R scripts containing code for modules. The dashboard code itself contains no data. When someone logs into the dashboard, it simply pulls the latest state of the world by querying this repository for the latest data. If the dashboard code is edited, a GitHub Action script .github/workflows/deploy_shinyapp_on_push.yml automatically pushes the revised files to shinyapps.io. Ticks on the "madness over time" x-axis are governed by dashboard_ticks.csv, in the main folder. Modules in the dashboard are as follows:
 
