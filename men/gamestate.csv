@@ -3,7 +3,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534592,101,225,Bottom,2026-03-17,TRUE,FALSE,16,Howard,Howard
 6534593,102,221,Bottom,2026-03-17,TRUE,TRUE,11,Texas,Texas
 6534593,102,221,Bottom,2026-03-17,FALSE,FALSE,11,NC State,North Carolina State
-6534594,103,209,Bottom,2026-03-18,FALSE,TRUE,16,Prairie View A&M,Prairie View A&M
+6534594,103,209,Bottom,2026-03-18,TRUE,TRUE,16,Prairie View A&M,Prairie View A&M
 6534594,103,209,Bottom,2026-03-18,FALSE,FALSE,16,Lehigh,Lehigh
 6534595,104,229,Bottom,2026-03-18,FALSE,TRUE,11,Miami (Ohio),Miami (OH)
 6534595,104,229,Bottom,2026-03-18,FALSE,FALSE,11,SMU,SMU
@@ -24,6 +24,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534603,208,304,Bottom,2026-03-20,FALSE,TRUE,2,UConn,Connecticut
 6534603,208,304,Bottom,2026-03-20,FALSE,FALSE,15,Furman,Furman
 6534604,209,305,Top,2026-03-20,FALSE,TRUE,1,Florida,Florida
+6534604,209,305,Top,2026-03-20,FALSE,FALSE,16,Prairie View A&M,Prairie View A&M
 6534605,210,305,Bottom,2026-03-20,FALSE,TRUE,8,Clemson,Clemson
 6534605,210,305,Bottom,2026-03-20,FALSE,FALSE,9,Iowa,Iowa
 6534606,211,306,Top,2026-03-19,FALSE,TRUE,5,Vanderbilt,Vanderbilt
