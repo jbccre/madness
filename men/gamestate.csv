@@ -5,7 +5,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534593,102,221,Bottom,2026-03-17,FALSE,FALSE,11,NC State,North Carolina State
 6534594,103,209,Bottom,2026-03-18,TRUE,TRUE,16,Prairie View A&M,Prairie View A&M
 6534594,103,209,Bottom,2026-03-18,FALSE,FALSE,16,Lehigh,Lehigh
-6534595,104,229,Bottom,2026-03-18,FALSE,TRUE,11,Miami (Ohio),Miami (OH)
+6534595,104,229,Bottom,2026-03-18,TRUE,TRUE,11,Miami (Ohio),Miami (OH)
 6534595,104,229,Bottom,2026-03-18,FALSE,FALSE,11,SMU,SMU
 6534596,201,301,Top,2026-03-19,FALSE,TRUE,1,Duke,Duke
 6534596,201,301,Top,2026-03-19,FALSE,FALSE,16,Siena,Siena
@@ -64,6 +64,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534623,228,314,Bottom,2026-03-20,FALSE,TRUE,4,Alabama,Alabama
 6534623,228,314,Bottom,2026-03-20,FALSE,FALSE,13,Hofstra,Hofstra
 6534624,229,315,Top,2026-03-20,FALSE,TRUE,6,Tennessee,Tennessee
+6534624,229,315,Top,2026-03-20,FALSE,FALSE,11,Miami (Ohio),Miami (OH)
 6534625,230,315,Bottom,2026-03-20,FALSE,TRUE,3,Virginia,Virginia
 6534625,230,315,Bottom,2026-03-20,FALSE,FALSE,14,Wright St.,Wright State
 6534626,231,316,Top,2026-03-20,FALSE,TRUE,7,Kentucky,Kentucky
