@@ -17,7 +17,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534599,204,302,Bottom,2026-03-20,FALSE,FALSE,13,Cal Baptist,California Baptist
 6534600,205,303,Top,2026-03-19,TRUE,TRUE,6,Louisville,Louisville
 6534600,205,303,Top,2026-03-19,FALSE,FALSE,11,South Florida,South Florida
-6534601,206,303,Bottom,2026-03-19,FALSE,TRUE,3,Michigan St.,Michigan State
+6534601,206,303,Bottom,2026-03-19,TRUE,TRUE,3,Michigan St.,Michigan State
 6534601,206,303,Bottom,2026-03-19,FALSE,FALSE,14,North Dakota St.,North Dakota State
 6534602,207,304,Top,2026-03-20,FALSE,TRUE,7,UCLA,UCLA
 6534602,207,304,Top,2026-03-20,FALSE,FALSE,10,UCF,UCF
@@ -45,7 +45,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534613,218,309,Bottom,2026-03-20,FALSE,FALSE,9,Utah St.,Utah State
 6534614,219,310,Top,2026-03-19,FALSE,TRUE,5,Wisconsin,Wisconsin
 6534614,219,310,Top,2026-03-19,TRUE,FALSE,12,High Point,High Point
-6534615,220,310,Bottom,2026-03-19,FALSE,TRUE,4,Arkansas,Arkansas
+6534615,220,310,Bottom,2026-03-19,TRUE,TRUE,4,Arkansas,Arkansas
 6534615,220,310,Bottom,2026-03-19,FALSE,FALSE,13,Hawaii,Hawaii
 6534616,221,311,Top,2026-03-19,FALSE,TRUE,6,BYU,BYU
 6534616,221,311,Top,2026-03-19,FALSE,FALSE,11,Texas,Texas
@@ -75,6 +75,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534628,301,401,Top,2026-03-21,FALSE,FALSE,9,TCU,TCU
 6534629,302,401,Bottom,2026-03-22,NA,NA,NA,NA,NA
 6534630,303,402,Top,2026-03-21,FALSE,TRUE,6,Louisville,Louisville
+6534630,303,402,Top,2026-03-21,FALSE,FALSE,3,Michigan St.,Michigan State
 6534631,304,402,Bottom,2026-03-22,NA,NA,NA,NA,NA
 6534632,305,403,Top,2026-03-22,NA,NA,NA,NA,NA
 6534633,306,403,Bottom,2026-03-21,FALSE,TRUE,5,Vanderbilt,Vanderbilt
@@ -83,6 +84,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534635,308,404,Bottom,2026-03-21,NA,NA,NA,NA,NA
 6534636,309,405,Top,2026-03-22,NA,NA,NA,NA,NA
 6534637,310,405,Bottom,2026-03-21,FALSE,TRUE,12,High Point,High Point
+6534637,310,405,Bottom,2026-03-21,FALSE,FALSE,4,Arkansas,Arkansas
 6534638,311,406,Top,2026-03-21,NA,NA,NA,NA,NA
 6534639,312,406,Bottom,2026-03-22,NA,NA,NA,NA,NA
 6534640,313,407,Top,2026-03-21,NA,NA,NA,NA,NA
