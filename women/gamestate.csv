@@ -1,5 +1,5 @@
 contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate,isWinner,isTop,seed,nameShort,elo_name
-6534660,101,225,Bottom,2026-03-18,FALSE,TRUE,16,Missouri St.,Missouri State
+6534660,101,225,Bottom,2026-03-18,TRUE,TRUE,16,Missouri St.,Missouri State
 6534660,101,225,Bottom,2026-03-18,FALSE,FALSE,16,Stephen F. Austin,Stephen F. Austin
 6534661,102,221,Bottom,2026-03-18,TRUE,TRUE,11,Nebraska,Nebraska
 6534661,102,221,Bottom,2026-03-18,FALSE,FALSE,11,Richmond,Richmond
