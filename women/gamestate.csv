@@ -5,7 +5,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534661,102,221,Bottom,2026-03-18,FALSE,FALSE,11,Richmond,Richmond
 6534662,103,209,Bottom,2026-03-19,TRUE,TRUE,16,Southern,Southern
 6534662,103,209,Bottom,2026-03-19,FALSE,FALSE,16,Samford,Samford
-6534663,104,215,Bottom,2026-03-19,FALSE,TRUE,10,Virginia,Virginia
+6534663,104,215,Bottom,2026-03-19,TRUE,TRUE,10,Virginia,Virginia
 6534663,104,215,Bottom,2026-03-19,FALSE,FALSE,10,Arizona St.,Arizona State
 6534664,201,301,Top,2026-03-21,FALSE,TRUE,1,UConn,Connecticut
 6534664,201,301,Top,2026-03-21,FALSE,FALSE,16,UTSA,UTSA
@@ -24,6 +24,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534671,208,304,Bottom,2026-03-21,FALSE,TRUE,2,Vanderbilt,Vanderbilt
 6534671,208,304,Bottom,2026-03-21,FALSE,FALSE,15,High Point,High Point
 6534672,209,305,Top,2026-03-21,FALSE,TRUE,1,South Carolina,South Carolina
+6534672,209,305,Top,2026-03-21,FALSE,FALSE,16,Southern,Southern
 6534673,210,305,Bottom,2026-03-21,FALSE,TRUE,8,Clemson,Clemson
 6534673,210,305,Bottom,2026-03-21,FALSE,FALSE,9,USC,USC
 6534674,211,306,Top,2026-03-20,FALSE,TRUE,5,Michigan St.,Michigan State
@@ -35,6 +36,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534677,214,307,Bottom,2026-03-20,FALSE,TRUE,3,TCU,TCU
 6534677,214,307,Bottom,2026-03-20,FALSE,FALSE,14,UC San Diego,UC San Diego
 6534678,215,308,Top,2026-03-21,FALSE,TRUE,7,Georgia,Georgia
+6534678,215,308,Top,2026-03-21,FALSE,FALSE,10,Virginia,Virginia
 6534679,216,308,Bottom,2026-03-21,FALSE,TRUE,2,Iowa,Iowa
 6534679,216,308,Bottom,2026-03-21,FALSE,FALSE,15,FDU,Fairleigh Dickinson
 6534680,217,309,Top,2026-03-21,FALSE,TRUE,1,UCLA,UCLA
