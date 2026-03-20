@@ -3,7 +3,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534660,101,225,Bottom,2026-03-18,FALSE,FALSE,16,Stephen F. Austin,Stephen F. Austin
 6534661,102,221,Bottom,2026-03-18,TRUE,TRUE,11,Nebraska,Nebraska
 6534661,102,221,Bottom,2026-03-18,FALSE,FALSE,11,Richmond,Richmond
-6534662,103,209,Bottom,2026-03-19,FALSE,TRUE,16,Southern,Southern
+6534662,103,209,Bottom,2026-03-19,TRUE,TRUE,16,Southern,Southern
 6534662,103,209,Bottom,2026-03-19,FALSE,FALSE,16,Samford,Samford
 6534663,104,215,Bottom,2026-03-19,FALSE,TRUE,10,Virginia,Virginia
 6534663,104,215,Bottom,2026-03-19,FALSE,FALSE,10,Arizona St.,Arizona State
@@ -54,6 +54,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534687,224,312,Bottom,2026-03-20,FALSE,TRUE,2,LSU,LSU
 6534687,224,312,Bottom,2026-03-20,FALSE,FALSE,15,Jacksonville,Jacksonville
 6534688,225,313,Top,2026-03-20,FALSE,TRUE,1,Texas,Texas
+6534688,225,313,Top,2026-03-20,FALSE,FALSE,16,Missouri St.,Missouri State
 6534689,226,313,Bottom,2026-03-20,FALSE,TRUE,8,Oregon,Oregon
 6534689,226,313,Bottom,2026-03-20,FALSE,FALSE,9,Virginia Tech,Virginia Tech
 6534690,227,314,Top,2026-03-21,FALSE,TRUE,5,Kentucky,Kentucky
