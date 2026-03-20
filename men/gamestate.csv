@@ -61,7 +61,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534621,226,313,Bottom,2026-03-19,TRUE,FALSE,9,Saint Louis,Saint Louis
 6534622,227,314,Top,2026-03-20,TRUE,TRUE,5,Texas Tech,Texas Tech
 6534622,227,314,Top,2026-03-20,FALSE,FALSE,12,Akron,Akron
-6534623,228,314,Bottom,2026-03-20,FALSE,TRUE,4,Alabama,Alabama
+6534623,228,314,Bottom,2026-03-20,TRUE,TRUE,4,Alabama,Alabama
 6534623,228,314,Bottom,2026-03-20,FALSE,FALSE,13,Hofstra,Hofstra
 6534624,229,315,Top,2026-03-20,FALSE,TRUE,6,Tennessee,Tennessee
 6534624,229,315,Top,2026-03-20,FALSE,FALSE,11,Miami (Ohio),Miami (OH)
@@ -69,7 +69,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534625,230,315,Bottom,2026-03-20,FALSE,FALSE,14,Wright St.,Wright State
 6534626,231,316,Top,2026-03-20,TRUE,TRUE,7,Kentucky,Kentucky
 6534626,231,316,Top,2026-03-20,FALSE,FALSE,10,Santa Clara,Santa Clara
-6534627,232,316,Bottom,2026-03-20,FALSE,TRUE,2,Iowa St.,Iowa State
+6534627,232,316,Bottom,2026-03-20,TRUE,TRUE,2,Iowa St.,Iowa State
 6534627,232,316,Bottom,2026-03-20,FALSE,FALSE,15,Tennessee St.,Tennessee State
 6534628,301,401,Top,2026-03-21,FALSE,TRUE,1,Duke,Duke
 6534628,301,401,Top,2026-03-21,FALSE,FALSE,9,TCU,TCU
@@ -95,6 +95,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534641,314,407,Bottom,2026-03-22,FALSE,TRUE,5,Texas Tech,Texas Tech
 6534642,315,408,Top,2026-03-22,FALSE,FALSE,3,Virginia,Virginia
 6534643,316,408,Bottom,2026-03-22,FALSE,TRUE,7,Kentucky,Kentucky
+6534643,316,408,Bottom,2026-03-22,FALSE,FALSE,2,Iowa St.,Iowa State
 6534644,401,501,Top,2026-03-27,NA,NA,NA,NA,NA
 6534645,402,501,Bottom,2026-03-27,NA,NA,NA,NA,NA
 6534646,403,502,Top,2026-03-26,NA,NA,NA,NA,NA
