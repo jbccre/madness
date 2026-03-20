@@ -59,7 +59,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534620,225,313,Top,2026-03-19,FALSE,FALSE,16,Howard,Howard
 6534621,226,313,Bottom,2026-03-19,FALSE,TRUE,8,Georgia,Georgia
 6534621,226,313,Bottom,2026-03-19,TRUE,FALSE,9,Saint Louis,Saint Louis
-6534622,227,314,Top,2026-03-20,FALSE,TRUE,5,Texas Tech,Texas Tech
+6534622,227,314,Top,2026-03-20,TRUE,TRUE,5,Texas Tech,Texas Tech
 6534622,227,314,Top,2026-03-20,FALSE,FALSE,12,Akron,Akron
 6534623,228,314,Bottom,2026-03-20,FALSE,TRUE,4,Alabama,Alabama
 6534623,228,314,Bottom,2026-03-20,FALSE,FALSE,13,Hofstra,Hofstra
