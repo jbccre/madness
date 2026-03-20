@@ -55,7 +55,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534686,223,312,Top,2026-03-20,FALSE,FALSE,10,Villanova,Villanova
 6534687,224,312,Bottom,2026-03-20,FALSE,TRUE,2,LSU,LSU
 6534687,224,312,Bottom,2026-03-20,FALSE,FALSE,15,Jacksonville,Jacksonville
-6534688,225,313,Top,2026-03-20,FALSE,TRUE,1,Texas,Texas
+6534688,225,313,Top,2026-03-20,TRUE,TRUE,1,Texas,Texas
 6534688,225,313,Top,2026-03-20,FALSE,FALSE,16,Missouri St.,Missouri State
 6534689,226,313,Bottom,2026-03-20,TRUE,TRUE,8,Oregon,Oregon
 6534689,226,313,Bottom,2026-03-20,FALSE,FALSE,9,Virginia Tech,Virginia Tech
