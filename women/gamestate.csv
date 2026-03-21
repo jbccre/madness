@@ -61,7 +61,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534689,226,313,Bottom,2026-03-20,FALSE,FALSE,9,Virginia Tech,Virginia Tech
 6534690,227,314,Top,2026-03-21,TRUE,TRUE,5,Kentucky,Kentucky
 6534690,227,314,Top,2026-03-21,FALSE,FALSE,12,James Madison,James Madison
-6534691,228,314,Bottom,2026-03-21,FALSE,TRUE,4,West Virginia,West Virginia
+6534691,228,314,Bottom,2026-03-21,TRUE,TRUE,4,West Virginia,West Virginia
 6534691,228,314,Bottom,2026-03-21,FALSE,FALSE,13,Miami (Ohio),Miami (OH)
 6534692,229,315,Top,2026-03-21,TRUE,TRUE,6,Alabama,Alabama
 6534692,229,315,Top,2026-03-21,FALSE,FALSE,11,Rhode Island,Rhode Island
@@ -95,6 +95,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534708,313,407,Top,2026-03-22,FALSE,TRUE,1,Texas,Texas
 6534708,313,407,Top,2026-03-22,FALSE,FALSE,8,Oregon,Oregon
 6534709,314,407,Bottom,2026-03-23,FALSE,TRUE,5,Kentucky,Kentucky
+6534709,314,407,Bottom,2026-03-23,FALSE,FALSE,4,West Virginia,West Virginia
 6534710,315,408,Top,2026-03-23,FALSE,TRUE,6,Alabama,Alabama
 6534710,315,408,Top,2026-03-23,FALSE,FALSE,3,Louisville,Louisville
 6534711,316,408,Bottom,2026-03-22,FALSE,TRUE,7,NC State,North Carolina State
