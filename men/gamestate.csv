@@ -26,7 +26,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534604,209,305,Top,2026-03-20,FALSE,TRUE,1,Florida,Florida
 6534604,209,305,Top,2026-03-20,FALSE,FALSE,16,Prairie View A&M,Prairie View A&M
 6534605,210,305,Bottom,2026-03-20,FALSE,TRUE,8,Clemson,Clemson
-6534605,210,305,Bottom,2026-03-20,FALSE,FALSE,9,Iowa,Iowa
+6534605,210,305,Bottom,2026-03-20,TRUE,FALSE,9,Iowa,Iowa
 6534606,211,306,Top,2026-03-19,TRUE,TRUE,5,Vanderbilt,Vanderbilt
 6534606,211,306,Top,2026-03-19,FALSE,FALSE,12,McNeese,McNeese
 6534607,212,306,Bottom,2026-03-19,TRUE,TRUE,4,Nebraska,Nebraska
@@ -77,7 +77,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534630,303,402,Top,2026-03-21,FALSE,TRUE,6,Louisville,Louisville
 6534630,303,402,Top,2026-03-21,FALSE,FALSE,3,Michigan St.,Michigan State
 6534631,304,402,Bottom,2026-03-22,NA,NA,NA,NA,NA
-6534632,305,403,Top,2026-03-22,NA,NA,NA,NA,NA
+6534632,305,403,Top,2026-03-22,FALSE,FALSE,9,Iowa,Iowa
 6534633,306,403,Bottom,2026-03-21,FALSE,TRUE,5,Vanderbilt,Vanderbilt
 6534633,306,403,Bottom,2026-03-21,FALSE,FALSE,4,Nebraska,Nebraska
 6534634,307,404,Top,2026-03-21,FALSE,TRUE,11,VCU,VCU
