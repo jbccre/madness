@@ -11,7 +11,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534596,201,301,Top,2026-03-19,FALSE,FALSE,16,Siena,Siena
 6534597,202,301,Bottom,2026-03-19,FALSE,TRUE,8,Ohio St.,Ohio State
 6534597,202,301,Bottom,2026-03-19,TRUE,FALSE,9,TCU,TCU
-6534598,203,302,Top,2026-03-20,FALSE,TRUE,5,St. John's,Saint John's
+6534598,203,302,Top,2026-03-20,TRUE,TRUE,5,St. John's,Saint John's
 6534598,203,302,Top,2026-03-20,FALSE,FALSE,12,Northern Iowa,Northern Iowa
 6534599,204,302,Bottom,2026-03-20,FALSE,TRUE,4,Kansas,Kansas
 6534599,204,302,Bottom,2026-03-20,FALSE,FALSE,13,Cal Baptist,California Baptist
@@ -53,7 +53,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534617,222,311,Bottom,2026-03-19,FALSE,FALSE,14,Kennesaw St.,Kennesaw State
 6534618,223,312,Top,2026-03-20,FALSE,TRUE,7,Miami (FL),Miami (FL)
 6534618,223,312,Top,2026-03-20,FALSE,FALSE,10,Missouri,Missouri
-6534619,224,312,Bottom,2026-03-20,FALSE,TRUE,2,Purdue,Purdue
+6534619,224,312,Bottom,2026-03-20,TRUE,TRUE,2,Purdue,Purdue
 6534619,224,312,Bottom,2026-03-20,FALSE,FALSE,15,Queens (N.C.),Queens
 6534620,225,313,Top,2026-03-19,TRUE,TRUE,1,Michigan,Michigan
 6534620,225,313,Top,2026-03-19,FALSE,FALSE,16,Howard,Howard
@@ -73,7 +73,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534627,232,316,Bottom,2026-03-20,FALSE,FALSE,15,Tennessee St.,Tennessee State
 6534628,301,401,Top,2026-03-21,FALSE,TRUE,1,Duke,Duke
 6534628,301,401,Top,2026-03-21,FALSE,FALSE,9,TCU,TCU
-6534629,302,401,Bottom,2026-03-22,NA,NA,NA,NA,NA
+6534629,302,401,Bottom,2026-03-22,FALSE,TRUE,5,St. John's,Saint John's
 6534630,303,402,Top,2026-03-21,FALSE,TRUE,6,Louisville,Louisville
 6534630,303,402,Top,2026-03-21,FALSE,FALSE,3,Michigan St.,Michigan State
 6534631,304,402,Bottom,2026-03-22,NA,NA,NA,NA,NA
@@ -90,7 +90,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534637,310,405,Bottom,2026-03-21,FALSE,FALSE,4,Arkansas,Arkansas
 6534638,311,406,Top,2026-03-21,FALSE,TRUE,11,Texas,Texas
 6534638,311,406,Top,2026-03-21,FALSE,FALSE,3,Gonzaga,Gonzaga
-6534639,312,406,Bottom,2026-03-22,NA,NA,NA,NA,NA
+6534639,312,406,Bottom,2026-03-22,FALSE,FALSE,2,Purdue,Purdue
 6534640,313,407,Top,2026-03-21,FALSE,TRUE,1,Michigan,Michigan
 6534640,313,407,Top,2026-03-21,FALSE,FALSE,9,Saint Louis,Saint Louis
 6534641,314,407,Bottom,2026-03-22,FALSE,TRUE,5,Texas Tech,Texas Tech
