@@ -51,7 +51,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534684,221,311,Top,2026-03-20,FALSE,FALSE,11,Nebraska,Nebraska
 6534685,222,311,Bottom,2026-03-20,TRUE,TRUE,3,Duke,Duke
 6534685,222,311,Bottom,2026-03-20,FALSE,FALSE,14,Charleston,Charleston
-6534686,223,312,Top,2026-03-20,FALSE,TRUE,7,Texas Tech,Texas Tech
+6534686,223,312,Top,2026-03-20,TRUE,TRUE,7,Texas Tech,Texas Tech
 6534686,223,312,Top,2026-03-20,FALSE,FALSE,10,Villanova,Villanova
 6534687,224,312,Bottom,2026-03-20,TRUE,TRUE,2,LSU,LSU
 6534687,224,312,Bottom,2026-03-20,FALSE,FALSE,15,Jacksonville,Jacksonville
@@ -86,6 +86,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534705,310,405,Bottom,2026-03-22,FALSE,FALSE,4,Minnesota,Minnesota
 6534706,311,406,Top,2026-03-22,FALSE,TRUE,6,Baylor,Baylor
 6534706,311,406,Top,2026-03-22,FALSE,FALSE,3,Duke,Duke
+6534707,312,406,Bottom,2026-03-22,FALSE,TRUE,7,Texas Tech,Texas Tech
 6534707,312,406,Bottom,2026-03-22,FALSE,FALSE,2,LSU,LSU
 6534708,313,407,Top,2026-03-22,FALSE,TRUE,1,Texas,Texas
 6534708,313,407,Top,2026-03-22,FALSE,FALSE,8,Oregon,Oregon
