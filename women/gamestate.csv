@@ -29,7 +29,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534673,210,305,Bottom,2026-03-21,FALSE,FALSE,9,USC,USC
 6534674,211,306,Top,2026-03-20,TRUE,TRUE,5,Michigan St.,Michigan State
 6534674,211,306,Top,2026-03-20,FALSE,FALSE,12,Colorado St.,Colorado State
-6534675,212,306,Bottom,2026-03-20,FALSE,TRUE,4,Oklahoma,Oklahoma
+6534675,212,306,Bottom,2026-03-20,TRUE,TRUE,4,Oklahoma,Oklahoma
 6534675,212,306,Bottom,2026-03-20,FALSE,FALSE,13,Idaho,Idaho
 6534676,213,307,Top,2026-03-20,TRUE,TRUE,6,Washington,Washington
 6534676,213,307,Top,2026-03-20,FALSE,FALSE,11,South Dakota St.,South Dakota State
@@ -78,6 +78,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534699,304,402,Bottom,2026-03-23,NA,NA,NA,NA,NA
 6534700,305,403,Top,2026-03-23,NA,NA,NA,NA,NA
 6534701,306,403,Bottom,2026-03-22,FALSE,TRUE,5,Michigan St.,Michigan State
+6534701,306,403,Bottom,2026-03-22,FALSE,FALSE,4,Oklahoma,Oklahoma
 6534702,307,404,Top,2026-03-22,FALSE,TRUE,6,Washington,Washington
 6534702,307,404,Top,2026-03-22,FALSE,FALSE,3,TCU,TCU
 6534703,308,404,Bottom,2026-03-23,NA,NA,NA,NA,NA
