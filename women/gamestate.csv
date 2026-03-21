@@ -65,7 +65,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534691,228,314,Bottom,2026-03-21,FALSE,FALSE,13,Miami (Ohio),Miami (OH)
 6534692,229,315,Top,2026-03-21,FALSE,TRUE,6,Alabama,Alabama
 6534692,229,315,Top,2026-03-21,FALSE,FALSE,11,Rhode Island,Rhode Island
-6534693,230,315,Bottom,2026-03-21,FALSE,TRUE,3,Louisville,Louisville
+6534693,230,315,Bottom,2026-03-21,TRUE,TRUE,3,Louisville,Louisville
 6534693,230,315,Bottom,2026-03-21,FALSE,FALSE,14,Vermont,Vermont
 6534694,231,316,Top,2026-03-20,TRUE,TRUE,7,NC State,North Carolina State
 6534694,231,316,Top,2026-03-20,FALSE,FALSE,10,Tennessee,Tennessee
@@ -92,7 +92,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534708,313,407,Top,2026-03-22,FALSE,TRUE,1,Texas,Texas
 6534708,313,407,Top,2026-03-22,FALSE,FALSE,8,Oregon,Oregon
 6534709,314,407,Bottom,2026-03-23,NA,NA,NA,NA,NA
-6534710,315,408,Top,2026-03-23,NA,NA,NA,NA,NA
+6534710,315,408,Top,2026-03-23,FALSE,FALSE,3,Louisville,Louisville
 6534711,316,408,Bottom,2026-03-22,FALSE,TRUE,7,NC State,North Carolina State
 6534711,316,408,Bottom,2026-03-22,FALSE,FALSE,2,Michigan,Michigan
 6534712,401,501,Top,2026-03-27,NA,NA,NA,NA,NA
