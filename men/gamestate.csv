@@ -19,7 +19,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534600,205,303,Top,2026-03-19,FALSE,FALSE,11,South Florida,South Florida
 6534601,206,303,Bottom,2026-03-19,TRUE,TRUE,3,Michigan St.,Michigan State
 6534601,206,303,Bottom,2026-03-19,FALSE,FALSE,14,North Dakota St.,North Dakota State
-6534602,207,304,Top,2026-03-20,FALSE,TRUE,7,UCLA,UCLA
+6534602,207,304,Top,2026-03-20,TRUE,TRUE,7,UCLA,UCLA
 6534602,207,304,Top,2026-03-20,FALSE,FALSE,10,UCF,UCF
 6534603,208,304,Bottom,2026-03-20,FALSE,TRUE,2,UConn,Connecticut
 6534603,208,304,Bottom,2026-03-20,FALSE,FALSE,15,Furman,Furman
@@ -76,7 +76,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534629,302,401,Bottom,2026-03-22,FALSE,TRUE,5,St. John's,Saint John's
 6534630,303,402,Top,2026-03-21,FALSE,TRUE,6,Louisville,Louisville
 6534630,303,402,Top,2026-03-21,FALSE,FALSE,3,Michigan St.,Michigan State
-6534631,304,402,Bottom,2026-03-22,NA,NA,NA,NA,NA
+6534631,304,402,Bottom,2026-03-22,FALSE,TRUE,7,UCLA,UCLA
 6534632,305,403,Top,2026-03-22,FALSE,FALSE,9,Iowa,Iowa
 6534633,306,403,Bottom,2026-03-21,FALSE,TRUE,5,Vanderbilt,Vanderbilt
 6534633,306,403,Bottom,2026-03-21,FALSE,FALSE,4,Nebraska,Nebraska
