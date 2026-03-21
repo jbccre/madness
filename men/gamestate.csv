@@ -13,7 +13,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534597,202,301,Bottom,2026-03-19,TRUE,FALSE,9,TCU,TCU
 6534598,203,302,Top,2026-03-20,TRUE,TRUE,5,St. John's,Saint John's
 6534598,203,302,Top,2026-03-20,FALSE,FALSE,12,Northern Iowa,Northern Iowa
-6534599,204,302,Bottom,2026-03-20,FALSE,TRUE,4,Kansas,Kansas
+6534599,204,302,Bottom,2026-03-20,TRUE,TRUE,4,Kansas,Kansas
 6534599,204,302,Bottom,2026-03-20,FALSE,FALSE,13,Cal Baptist,California Baptist
 6534600,205,303,Top,2026-03-19,TRUE,TRUE,6,Louisville,Louisville
 6534600,205,303,Top,2026-03-19,FALSE,FALSE,11,South Florida,South Florida
@@ -74,6 +74,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534628,301,401,Top,2026-03-21,FALSE,TRUE,1,Duke,Duke
 6534628,301,401,Top,2026-03-21,FALSE,FALSE,9,TCU,TCU
 6534629,302,401,Bottom,2026-03-22,FALSE,TRUE,5,St. John's,Saint John's
+6534629,302,401,Bottom,2026-03-22,FALSE,FALSE,4,Kansas,Kansas
 6534630,303,402,Top,2026-03-21,FALSE,TRUE,6,Louisville,Louisville
 6534630,303,402,Top,2026-03-21,FALSE,FALSE,3,Michigan St.,Michigan State
 6534631,304,402,Bottom,2026-03-22,FALSE,TRUE,7,UCLA,UCLA
