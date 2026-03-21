@@ -10,7 +10,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534664,201,301,Top,2026-03-21,TRUE,TRUE,1,UConn,Connecticut
 6534664,201,301,Top,2026-03-21,FALSE,FALSE,16,UTSA,UTSA
 6534665,202,301,Bottom,2026-03-21,FALSE,TRUE,8,Iowa St.,Iowa State
-6534665,202,301,Bottom,2026-03-21,FALSE,FALSE,9,Syracuse,Syracuse
+6534665,202,301,Bottom,2026-03-21,TRUE,FALSE,9,Syracuse,Syracuse
 6534666,203,302,Top,2026-03-20,TRUE,TRUE,5,Maryland,Maryland
 6534666,203,302,Top,2026-03-20,FALSE,FALSE,12,Murray St.,Murray State
 6534667,204,302,Bottom,2026-03-20,TRUE,TRUE,4,North Carolina,North Carolina
@@ -72,6 +72,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534695,232,316,Bottom,2026-03-20,TRUE,TRUE,2,Michigan,Michigan
 6534695,232,316,Bottom,2026-03-20,FALSE,FALSE,15,Holy Cross,Holy Cross
 6534696,301,401,Top,2026-03-23,FALSE,TRUE,1,UConn,Connecticut
+6534696,301,401,Top,2026-03-23,FALSE,FALSE,9,Syracuse,Syracuse
 6534697,302,401,Bottom,2026-03-22,FALSE,TRUE,5,Maryland,Maryland
 6534697,302,401,Bottom,2026-03-22,FALSE,FALSE,4,North Carolina,North Carolina
 6534698,303,402,Top,2026-03-23,FALSE,TRUE,6,Notre Dame,Notre Dame
