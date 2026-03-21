@@ -37,7 +37,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534677,214,307,Bottom,2026-03-20,FALSE,FALSE,14,UC San Diego,UC San Diego
 6534678,215,308,Top,2026-03-21,FALSE,TRUE,7,Georgia,Georgia
 6534678,215,308,Top,2026-03-21,TRUE,FALSE,10,Virginia,Virginia
-6534679,216,308,Bottom,2026-03-21,FALSE,TRUE,2,Iowa,Iowa
+6534679,216,308,Bottom,2026-03-21,TRUE,TRUE,2,Iowa,Iowa
 6534679,216,308,Bottom,2026-03-21,FALSE,FALSE,15,FDU,Fairleigh Dickinson
 6534680,217,309,Top,2026-03-21,FALSE,TRUE,1,UCLA,UCLA
 6534680,217,309,Top,2026-03-21,FALSE,FALSE,16,Cal Baptist,California Baptist
@@ -84,6 +84,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534702,307,404,Top,2026-03-22,FALSE,TRUE,6,Washington,Washington
 6534702,307,404,Top,2026-03-22,FALSE,FALSE,3,TCU,TCU
 6534703,308,404,Bottom,2026-03-23,FALSE,TRUE,10,Virginia,Virginia
+6534703,308,404,Bottom,2026-03-23,FALSE,FALSE,2,Iowa,Iowa
 6534704,309,405,Top,2026-03-23,NA,NA,NA,NA,NA
 6534705,310,405,Bottom,2026-03-22,FALSE,TRUE,5,Ole Miss,Ole Miss
 6534705,310,405,Bottom,2026-03-22,FALSE,FALSE,4,Minnesota,Minnesota
