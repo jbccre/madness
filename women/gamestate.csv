@@ -102,7 +102,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534710,315,408,Top,2026-03-23,FALSE,TRUE,6,Alabama,Alabama
 6534710,315,408,Top,2026-03-23,FALSE,FALSE,3,Louisville,Louisville
 6534711,316,408,Bottom,2026-03-22,FALSE,TRUE,7,NC State,North Carolina State
-6534711,316,408,Bottom,2026-03-22,FALSE,FALSE,2,Michigan,Michigan
+6534711,316,408,Bottom,2026-03-22,TRUE,FALSE,2,Michigan,Michigan
 6534712,401,501,Top,2026-03-27,FALSE,FALSE,4,North Carolina,North Carolina
 6534713,402,501,Bottom,2026-03-27,NA,NA,NA,NA,NA
 6534714,403,502,Top,2026-03-28,NA,NA,NA,NA,NA
