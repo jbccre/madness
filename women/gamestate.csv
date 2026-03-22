@@ -21,7 +21,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534669,206,303,Bottom,2026-03-21,FALSE,FALSE,14,Howard,Howard
 6534670,207,304,Top,2026-03-21,FALSE,TRUE,7,Illinois,Illinois
 6534670,207,304,Top,2026-03-21,FALSE,FALSE,10,Colorado,Colorado
-6534671,208,304,Bottom,2026-03-21,FALSE,TRUE,2,Vanderbilt,Vanderbilt
+6534671,208,304,Bottom,2026-03-21,TRUE,TRUE,2,Vanderbilt,Vanderbilt
 6534671,208,304,Bottom,2026-03-21,FALSE,FALSE,15,High Point,High Point
 6534672,209,305,Top,2026-03-21,TRUE,TRUE,1,South Carolina,South Carolina
 6534672,209,305,Top,2026-03-21,FALSE,FALSE,16,Southern,Southern
