@@ -39,7 +39,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534678,215,308,Top,2026-03-21,TRUE,FALSE,10,Virginia,Virginia
 6534679,216,308,Bottom,2026-03-21,TRUE,TRUE,2,Iowa,Iowa
 6534679,216,308,Bottom,2026-03-21,FALSE,FALSE,15,FDU,Fairleigh Dickinson
-6534680,217,309,Top,2026-03-21,FALSE,TRUE,1,UCLA,UCLA
+6534680,217,309,Top,2026-03-21,TRUE,TRUE,1,UCLA,UCLA
 6534680,217,309,Top,2026-03-21,FALSE,FALSE,16,Cal Baptist,California Baptist
 6534681,218,309,Bottom,2026-03-21,TRUE,TRUE,8,Oklahoma St.,Oklahoma State
 6534681,218,309,Bottom,2026-03-21,FALSE,FALSE,9,Princeton,Princeton
@@ -77,6 +77,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534697,302,401,Bottom,2026-03-22,FALSE,FALSE,4,North Carolina,North Carolina
 6534698,303,402,Top,2026-03-23,FALSE,TRUE,6,Notre Dame,Notre Dame
 6534698,303,402,Top,2026-03-23,FALSE,FALSE,3,Ohio St.,Ohio State
+6534699,304,402,Bottom,2026-03-23,FALSE,TRUE,7,Illinois,Illinois
 6534699,304,402,Bottom,2026-03-23,FALSE,FALSE,2,Vanderbilt,Vanderbilt
 6534700,305,403,Top,2026-03-23,FALSE,TRUE,1,South Carolina,South Carolina
 6534700,305,403,Top,2026-03-23,FALSE,FALSE,9,USC,USC
@@ -86,6 +87,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534702,307,404,Top,2026-03-22,FALSE,FALSE,3,TCU,TCU
 6534703,308,404,Bottom,2026-03-23,FALSE,TRUE,10,Virginia,Virginia
 6534703,308,404,Bottom,2026-03-23,FALSE,FALSE,2,Iowa,Iowa
+6534704,309,405,Top,2026-03-23,FALSE,TRUE,1,UCLA,UCLA
 6534704,309,405,Top,2026-03-23,FALSE,FALSE,8,Oklahoma St.,Oklahoma State
 6534705,310,405,Bottom,2026-03-22,FALSE,TRUE,5,Ole Miss,Ole Miss
 6534705,310,405,Bottom,2026-03-22,FALSE,FALSE,4,Minnesota,Minnesota
