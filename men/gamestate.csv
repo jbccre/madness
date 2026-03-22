@@ -86,7 +86,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534634,307,404,Top,2026-03-21,FALSE,TRUE,11,VCU,VCU
 6534634,307,404,Top,2026-03-21,FALSE,FALSE,3,Illinois,Illinois
 6534635,308,404,Bottom,2026-03-21,FALSE,TRUE,10,Texas A&M,Texas A&M
-6534635,308,404,Bottom,2026-03-21,FALSE,FALSE,2,Houston,Houston
+6534635,308,404,Bottom,2026-03-21,TRUE,FALSE,2,Houston,Houston
 6534636,309,405,Top,2026-03-22,FALSE,TRUE,1,Arizona,Arizona
 6534636,309,405,Top,2026-03-22,FALSE,FALSE,9,Utah St.,Utah State
 6534637,310,405,Bottom,2026-03-21,FALSE,TRUE,12,High Point,High Point
