@@ -99,7 +99,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534640,313,407,Top,2026-03-21,FALSE,FALSE,9,Saint Louis,Saint Louis
 6534641,314,407,Bottom,2026-03-22,FALSE,TRUE,5,Texas Tech,Texas Tech
 6534641,314,407,Bottom,2026-03-22,FALSE,FALSE,4,Alabama,Alabama
-6534642,315,408,Top,2026-03-22,FALSE,TRUE,6,Tennessee,Tennessee
+6534642,315,408,Top,2026-03-22,TRUE,TRUE,6,Tennessee,Tennessee
 6534642,315,408,Top,2026-03-22,FALSE,FALSE,3,Virginia,Virginia
 6534643,316,408,Bottom,2026-03-22,FALSE,TRUE,7,Kentucky,Kentucky
 6534643,316,408,Bottom,2026-03-22,TRUE,FALSE,2,Iowa St.,Iowa State
@@ -113,6 +113,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534649,406,503,Bottom,2026-03-26,FALSE,TRUE,11,Texas,Texas
 6534649,406,503,Bottom,2026-03-26,FALSE,FALSE,2,Purdue,Purdue
 6534650,407,504,Top,2026-03-27,FALSE,TRUE,1,Michigan,Michigan
+6534651,408,504,Bottom,2026-03-27,FALSE,TRUE,6,Tennessee,Tennessee
 6534651,408,504,Bottom,2026-03-27,FALSE,FALSE,2,Iowa St.,Iowa State
 6534652,501,601,Top,2026-03-29,NA,NA,NA,NA,NA
 6534653,502,601,Bottom,2026-03-28,NA,NA,NA,NA,NA
