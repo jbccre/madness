@@ -107,7 +107,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534712,401,501,Top,2026-03-27,FALSE,FALSE,4,North Carolina,North Carolina
 6534713,402,501,Bottom,2026-03-27,TRUE,TRUE,6,Notre Dame,Notre Dame
 6534713,402,501,Bottom,2026-03-27,FALSE,FALSE,2,Vanderbilt,Vanderbilt
-6534714,403,502,Top,2026-03-28,FALSE,TRUE,1,South Carolina,South Carolina
+6534714,403,502,Top,2026-03-28,TRUE,TRUE,1,South Carolina,South Carolina
 6534714,403,502,Top,2026-03-28,FALSE,FALSE,4,Oklahoma,Oklahoma
 6534715,404,502,Bottom,2026-03-28,FALSE,TRUE,3,TCU,TCU
 6534715,404,502,Bottom,2026-03-28,FALSE,FALSE,10,Virginia,Virginia
@@ -121,7 +121,7 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534719,408,504,Bottom,2026-03-28,TRUE,FALSE,2,Michigan,Michigan
 6534720,501,601,Top,2026-03-29,FALSE,TRUE,1,UConn,Connecticut
 6534720,501,601,Top,2026-03-29,FALSE,FALSE,6,Notre Dame,Notre Dame
-6534721,502,601,Bottom,2026-03-30,NA,NA,NA,NA,NA
+6534721,502,601,Bottom,2026-03-30,FALSE,TRUE,1,South Carolina,South Carolina
 6534722,503,602,Top,2026-03-29,FALSE,TRUE,1,UCLA,UCLA
 6534722,503,602,Top,2026-03-29,FALSE,FALSE,3,Duke,Duke
 6534723,504,602,Bottom,2026-03-30,FALSE,TRUE,1,Texas,Texas
