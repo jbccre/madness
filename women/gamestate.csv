@@ -132,3 +132,4 @@ contestId,bracketPositionId,victorBracketPositionId,victorGamePosition,startDate
 6534725,602,701,Bottom,2026-04-03,TRUE,TRUE,1,UCLA,UCLA
 6534725,602,701,Bottom,2026-04-03,FALSE,FALSE,1,Texas,Texas
 6534726,701,NA,NA,2026-04-05,FALSE,TRUE,1,South Carolina,South Carolina
+6534726,701,NA,NA,2026-04-05,TRUE,FALSE,1,UCLA,UCLA
